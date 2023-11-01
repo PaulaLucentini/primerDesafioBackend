@@ -22,7 +22,7 @@ class ProductManager {
       this.products.push(product);
     }
   
-    agregarUsuario(idProduct, idElemento) {
+    agregarElemento(idProduct, idElemento) {
       const product = this.products.find((product) => product.id === idProduct);
   
       if (!product) {
